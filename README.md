@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import SQRT_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-pi@esm/index.mjs';
+import SQRT_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-pi@v0.0.8-esm/index.mjs';
 ```
 
 #### SQRT_PI
@@ -61,7 +61,7 @@ var bool = ( SQRT_PI === 1.7724538509055160 );
 <body>
 <script type="module">
 
-import SQRT_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-pi@esm/index.mjs';
+import SQRT_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-pi@v0.0.8-esm/index.mjs';
 
 console.log( SQRT_PI );
 // => 1.7724538509055160
