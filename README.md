@@ -144,7 +144,7 @@ Macro for the square root of the mathematical constant [π][@stdlib/constants/fl
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float64/pi`][@stdlib/constants/float64/pi]</span><span class="delimiter">: </span><span class="description">π.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/pi`][@stdlib/constants/float64/pi]</span><span class="delimiter">: </span><span class="description">π.</span>
 
 </section>
 
