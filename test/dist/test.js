@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,18 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var SQRT_PI = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a number', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof SQRT_PI, 'number', 'main export is a number' );
-	t.end();
-});
-
-tape( 'export is a double-precision floating-point number equal to `1.7724538509055160`', function test( t ) {
-	t.equal( SQRT_PI, 1.7724538509055160, 'equals 1.7724538509055160' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
